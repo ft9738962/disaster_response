@@ -19,7 +19,7 @@ This is a personal project for Udacity DSND Term2. No interaction is needed.
 ---
 # 4. Licensing
 
-There is no license to any output of the data exploration and figure files. It's welcome to quote the conclusion.
+BSD 3-clause
 
 ---
 # 5. Authors
