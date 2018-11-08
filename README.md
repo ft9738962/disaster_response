@@ -28,7 +28,7 @@ The final app will be presented with on a web page. Users can type any sentence 
 # 3. Defect of the Raw Dataset
 In the main page of the web application, a graph of category count of the raw dataset has been provided.
 
-![category figure](https://www.jianguoyun.com/p/DYNljbMQ0JeABhif0oEB)
+![category figure](https://github.com/ft9738962/disaster_response/raw/master/pic/category.jpg)
 
 From the figure, it turns out that the proportion of each category is imbalanced. For some categories like "Storm", "food", "water", messages text resource is plenty. While for some other categories, such as "missing people", "fire", the number of related message text is rare. Especially there is no message belongs to "child_alone" category.
 
