@@ -28,7 +28,6 @@ Any improvement suggestion is appreciated especially for the better machine lear
 
 The pushed code should follow PEP-8 style.
 
-
 # 4. Licensing
 
 BSD 3-clause
