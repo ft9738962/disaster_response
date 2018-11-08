@@ -19,18 +19,30 @@ The final app will be presented with on a web page. Users can type any sentence 
         - go.html: interact with message and show results from machine learning model
         - master.html: basic html for web app
     - run.py: include flask for backend and plotly with data to create figure
+- pic:
+    - category.jpg: Figure used in README.md
 - ETL_Pipeline_Preparation.ipynb: Prepare file to build the data extraction-tranform-load pipeline
 - ML_Pipeline_Preparation.ipynb: Prepare file to grid search best parameters in different machine learning models
 
-# 3. How to Interact with the Project
+
+# 3. Defect of the Raw Dataset
+In the main page of the web application, a graph of category count of the raw dataset has been provided.
+
+![category figure](https://www.jianguoyun.com/p/DYNljbMQ0JeABhif0oEB)
+
+From the figure, it turns out that the proportion of each category is imbalanced. For some categories like "Storm", "food", "water", messages text resource is plenty. While for some other categories, such as "missing people", "fire", the number of related message text is rare. Especially there is no message belongs to "child_alone" category.
+
+So the fact will result inaccuracy of the model to judge message which should be classified to categories with minimum training resource.
+
+# 4. How to Interact with the Project
 
 Any improvement suggestion is appreciated especially for the better machine learning model.
 
 The pushed code should follow PEP-8 style.
 
-# 4. Licensing
+# 5. Licensing
 
 BSD 3-clause
 
-# 5. Authors
+# 6. Authors
 [Max Qiu](https://github.com/ft9738962)
